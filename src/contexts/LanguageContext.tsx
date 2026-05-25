@@ -37,6 +37,18 @@ const translations: Record<Language, Record<string, string>> = {
     // Bio
     'bio.title': 'Biography',
     'bio.subtitle': 'A life of discovery and wisdom',
+    'bio.photoPlaceholder': 'Photo placeholder',
+    'bio.intro': 'This section will contain the biography. You can add your mother\'s life story, her achievements, the places she lived, and the impact she had on everyone around her.',
+    'bio.earlyLife.heading': 'Early Life',
+    'bio.earlyLife.body': 'Elena was born on 3 October 1952 in the village of Lokorsko, near Sofia. She studied at the Radio and TV School in Sofia and later earned her PhD in Theoretical Physics from Sofia University St. Kliment Ohridski. Her doctoral thesis focused on quantum field theory. She later became a full professor of Physics at the Department of Language Teaching at Sofia University St. Kliment Ohridski.',
+    'bio.education.heading': 'Education & Career',
+    'bio.education.body1': 'In 1984, she married a mathematician, Vladimir, and that same year, their daughter, Irena Vladimirova Gueorguieva, was born. Shortly after, in 1986, the Chernobyl disaster occurred, leading to Elena developing thyroid carcinoma. She underwent a thyroidectomy but refused chemotherapy, believing that while it could extend life, its side effects were too severe to allow for a normal existence—especially as a mother of a young child. In 1993, she and Vladimir divorced. Later, Vladimir also developed cancer, which he survived after undergoing aggressive chemotherapy in Germany. His approach was in stark contrast to Elena\'s, shaped in part by her own convictions and the limited medical options available in Bulgaria at the time.',
+    'bio.education.body2': 'Following the emotionally exhausting divorce, Elena developed a deep interest in occult sciences, seeking answers beyond traditional physics to explain inexplicable coincidences and human behavior. She had always believed in a greater good and absolute love but encountered many people with opposing worldviews. Seeing the limitations of oncology and other medical fields in Bulgaria, she devoted the rest of her life to exploring both physical and spiritual healing. She successfully healed herself and later helped others navigate struggles similar to her own. She intuitively practiced the Silva Method, one of the first techniques she used to restore balance in her life. Her philosophical influences included Helena Petrovna Blavatsky, Rudolf Steiner, Osho, and Petar Danov. She later became a certified practitioner and instructor of the DEIR System developed by Dmitry Wereszczagin.',
+    'bio.books.heading': 'Books',
+    'bio.books.body': 'After 2000, she co-authored works with John Whale. With her background in Quantum Field Theory, she explored ways to apply the concept of the human aura as a structural energy-information pattern. She co-wrote an article on the human assemblage point in collaboration with John Whale, titled Vibration-Oscillation Diagnosing and Healing Therapy.',
+    'bio.legacy.heading': 'Legacy',
+    'bio.legacy.body': 'Elena\'s life ended unexpectedly in 2024 under unclear circumstances. Officially, it was stated that she suffered a stroke. The night before, she had spoken for the last time, and by the following day, she was unresponsive. I, Irena, her daughter was in Italy working, and called two of her friends. However, they delayed calling an ambulance for too long. When they finally took her to the hospital, it was declared that she had suffered a stroke.',
+    
     
     // Research
     'research.title': 'Scientific Research & Articles',
