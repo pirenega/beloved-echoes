@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useLanguage } from '@/contexts/LanguageContext';
 import PageHeader from '@/components/shared/PageHeader';
 import Ornament from '@/components/shared/Ornament';
+import mamaPhoto from '@/assets/mama.jpg';
 
 export default function Bio() {
   const { t } = useLanguage();
@@ -20,9 +21,11 @@ export default function Bio() {
           >
             {/* Placeholder for photo */}
             <div className="float-right ml-8 mb-6 w-64">
-              <div className="bg-sage rounded-lg aspect-[3/4] flex items-center justify-center border-4 border-cream shadow-lg">
-                <span className="text-muted-foreground text-sm">{t('bio.photoPlaceholder')}</span>
-              </div>
+              <img
+                src={mamaPhoto}
+                alt="Elena"
+                className="rounded-lg aspect-[3/4] object-cover border-4 border-cream shadow-lg w-full"
+              />
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
