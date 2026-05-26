@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useLanguage } from '@/contexts/LanguageContext';
 import PageHeader from '@/components/shared/PageHeader';
 import Ornament from '@/components/shared/Ornament';
+import mamaPhoto from '@/assets/mama.jpg';
 
 export default function Bio() {
   const { t } = useLanguage();
