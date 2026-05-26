@@ -69,7 +69,9 @@ const translations: Record<Language, Record<string, string>> = {
     'sayings.2.text': 'Yank it!',
     'sayings.2.context': 'She would say this when Windows was taking to long to start. When a program did not load, when the file explorer was taking too long to load the file list.',
 	'sayings.3.text': '... And I will pull the plug...',
-    'sayings.2.context': 'She would say this that whenever someone was acting up in the Facebook chat and she used to unplug the internet router.',
+    'sayings.3.context': 'She would say this that whenever someone was acting up in the Facebook chat and she used to unplug the internet router.',
+    'sayings.4.text': 'Well, just you wait, Hare! (from Nu Pogodi!)',
+    'sayings.4.context': 'She would say this that when someone got bad luck after making someting bad.',
     
     // Footer
     'footer.memory': 'Forever in our hearts',
@@ -135,6 +137,8 @@ const translations: Record<Language, Record<string, string>> = {
     'sayings.2.context': "Lo diceva quando Windows ci metteva troppo ad avviarsi. Quando i programmi non partivano. Quando il file explorer  non caricava la lista dei file.",
     'sayings.3.text': '...E gli stacco la spina!',
     'sayings.3.context': "Lo diceva quando qualcuno rompeva le scatole su Facebook e s staccava il router e quindi il Wi-Fi..",
+    'sayings.4.text': 'Beh, lepre, beh, aspetta!...e la pagherai (from Nu Pogodi!)',
+    'sayings.4.context': "Lo diceva quando qualcuno gli capitava quel che si merita dopo che aveva fatto del male.",
     
     // Footer
     'footer.memory': 'Per sempre nei nostri cuori',
@@ -200,6 +204,8 @@ const translations: Record<Language, Record<string, string>> = {
     'sayings.2.context': 'Обикновено го казваше когато Windows стартираше бавно. Когато програмите не стартираха, когато списъка с файли не се зареждаше.',
     'sayings.3.text': 'И като му дръпна шалтгера ...',
     'sayings.3.context': 'Казваше го когато някой нахалстваше в чата на фейсбук и изключваше рутера за интернет.',
+    'sayings.4.text': 'Ну заец ну погоди!',
+    'sayings.4.context': 'Казваше го когато някой му се случваше това което си заслужава след като бе правил зло.',
     
     // Footer
     'footer.memory': 'Завинаги в сърцата ни',
