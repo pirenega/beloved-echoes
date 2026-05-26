@@ -128,9 +128,9 @@ const translations: Record<Language, Record<string, string>> = {
     'sayings.subtitle': 'La saggezza e l\'umorismo che ha condiviso con noi',
     'sayings.listen': 'Ascolta',
     'sayings.1.text': 'Che Dio li accecasse',
-    'sayings.1.context': 'Lo diceva quando le lampadine si fulminavano inaspettatamente. Quando mio padre non pagava l'assegno di mantenimento. Quando il gatto riusciva ad aprire il frigo rubando l'ultimo pezzo di salame. Quando l'inquilino se l'è data a gambe con tutto l'arredamento, lasciando bollette arretrate e mesi di affitto da pagare.',
+    'sayings.1.context': "Lo diceva quando le lampadine si fulminavano inaspettatamente. Quando mio padre non pagava l'assegno di mantenimento. Quando il gatto riusciva ad aprire il frigo rubando l'ultimo pezzo di salame. Quando l'inquilino se l'è data a gambe con tutto l'arredamento, lasciando bollette arretrate e mesi di affitto da pagare.",
     'sayings.2.text': 'Daje, sgancia!',
-    'sayings.2.context': ''Lo diceva quando Windows ci metteva troppo ad avviarsi. ',
+    'sayings.2.context': "Lo diceva quando Windows ci metteva troppo ad avviarsi.",
     
     // Footer
     'footer.memory': 'Per sempre nei nostri cuori',
