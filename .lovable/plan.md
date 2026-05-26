@@ -1,20 +1,22 @@
-## Goal
-Make the Biography page fully multilingual so its content switches with the language selector (currently only the title/subtitle translate; the body is hardcoded English).
+## Problem
 
-## Changes
+The Vite dev server is failing with a syntax error and cannot render the preview:
 
-1. **`src/contexts/LanguageContext.tsx`** — add new keys for every biography section in all three languages (en, it, bg):
-   - `bio.earlyLife.heading` / `bio.earlyLife.body`
-   - `bio.education.heading` / `bio.education.body1` / `bio.education.body2`
-   - `bio.books.heading` / `bio.books.body`
-   - `bio.legacy.heading` / `bio.legacy.body`
-   - `bio.intro` (the opening paragraph)
-   - `bio.photoPlaceholder`
+```
+x Expected ',', got 'assegno'
+/dev-server/src/contexts/LanguageContext.tsx:131
+'sayings.1.context': 'Lo diceva quando ... mio padre non pagava l'assegno di mantenimento. ...'
+```
 
-   English keeps the existing wording. Italian and Bulgarian are faithful translations of the same content (Elena's life: birth in Lokorsko 1952, PhD in theoretical physics at Sofia University, marriage to Vladimir in 1984, daughter Irena, Chernobyl 1986 and thyroid carcinoma, divorce 1993, turn to occult/spiritual study, Silva Method, Blavatsky/Steiner/Osho/Danov influences, DEIR certification, co-authorship with John Whale on the assemblage point article, unexpected passing in 2024).
+The Italian translations on lines around 131–133 use single-quoted JS strings but contain unescaped apostrophes (`l'assegno`, `l'ultimo`, `l'inquilino`, `l'è`, `l'arredamento`). Line 133 also has a stray double apostrophe: `''Lo diceva quando Windows...`. This breaks the whole module, so nothing renders.
 
-2. **`src/pages/Bio.tsx`** — replace each hardcoded English paragraph and heading with `t('bio.…')` calls. No structural/visual changes.
+## Fix
 
-## Out of scope
-- No design changes, no new pages, no DB. Photo placeholder stays as-is.
-- Other pages (Home, Research, Spiritual, Sayings) are not touched in this pass — let me know if you want their body copy translated too.
+1. Open `src/contexts/LanguageContext.tsx`.
+2. Audit every Italian (and Bulgarian/English) string for unescaped apostrophes and stray quotes — not just lines 130–134.
+3. Convert problem strings from single quotes to double quotes (preferred — apostrophes are common in Italian) so e.g.:
+   - `'sayings.1.context': "Lo diceva quando le lampadine si fulminavano inaspettatamente. Quando mio padre non pagava l'assegno di mantenimento. Quando il gatto riusciva ad aprire il frigo rubando l'ultimo pezzo di salame. Quando l'inquilino se l'è data a gambe con tutto l'arredamento, lasciando bollette arretrate e mesi di affitto da pagare."`
+   - `'sayings.2.context': "Lo diceva quando Windows ci metteva troppo ad avviarsi."` (also removes the stray leading `'`).
+4. Save and confirm the dev server recompiles cleanly (no more `vite:react-swc` errors in the log) and the preview loads.
+
+No other files need changes.
