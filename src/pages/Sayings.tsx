@@ -24,8 +24,13 @@ export default function Sayings() {
     },
     {
       id: 3,
-      text: 'Add her favorite saying or expression here...',
-      context: 'She would say this when...',
+      textKey: 'sayings.3.text',
+      contextKey: 'sayings.3.context',
+    }, 
+	{
+      id: 4,
+      textKey: 'sayings.4.text',
+      contextKey: 'sayings.4.context',
     },
   ];
 
