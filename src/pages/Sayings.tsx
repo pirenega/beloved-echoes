@@ -6,42 +6,42 @@ import PageHeader from '@/components/shared/PageHeader';
 import Ornament from '@/components/shared/Ornament';
 import { Button } from '@/components/ui/button';
 
-// Placeholder sayings - replace with actual content
-const sayings = [
-  {
-    id: 1,
-    text: 'Add her favorite saying or expression here...',
-    context: 'She would say this when...',
-  },
-  {
-    id: 2,
-    text: 'Another memorable phrase...',
-    context: 'Usually said during...',
-  },
-  {
-    id: 3,
-    text: 'A piece of wisdom she shared...',
-    context: 'Her advice about...',
-  },
-];
-
-// Placeholder stories
-const stories = [
-  {
-    id: 1,
-    title: 'Story Title 1',
-    content: 'A story she used to tell... Add the full story here.',
-  },
-  {
-    id: 2,
-    title: 'Story Title 2',
-    content: 'Another memorable story... Add the details here.',
-  },
-];
-
 export default function Sayings() {
   const { t } = useLanguage();
   const [isPlaying, setIsPlaying] = useState(false);
+
+  // Sayings with translation keys
+  const sayings = [
+    {
+      id: 1,
+      textKey: 'sayings.1.text',
+      contextKey: 'sayings.1.context',
+    },
+    {
+      id: 2,
+      textKey: 'sayings.2.text',
+      contextKey: 'sayings.2.context',
+    },
+    {
+      id: 3,
+      text: 'Add her favorite saying or expression here...',
+      context: 'She would say this when...',
+    },
+  ];
+
+  // Placeholder stories
+  const stories = [
+    {
+      id: 1,
+      title: 'Story Title 1',
+      content: 'A story she used to tell... Add the full story here.',
+    },
+    {
+      id: 2,
+      title: 'Story Title 2',
+      content: 'Another memorable story... Add the details here.',
+    },
+  ];
 
   return (
     <div>
@@ -67,10 +67,10 @@ export default function Sayings() {
                   <Quote className="w-8 h-8 text-gold flex-shrink-0 mt-1" />
                   <div>
                     <p className="font-serif text-xl text-primary italic mb-2">
-                      "{saying.text}"
+                      "{saying.textKey ? t(saying.textKey) : saying.text}"
                     </p>
                     <p className="text-muted-foreground text-sm">
-                      {saying.context}
+                      {saying.contextKey ? t(saying.contextKey) : saying.context}
                     </p>
                   </div>
                 </div>
