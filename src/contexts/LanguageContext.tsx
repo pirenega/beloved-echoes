@@ -67,7 +67,9 @@ const translations: Record<Language, Record<string, string>> = {
     'sayings.1.text': 'God blind them all!',
     'sayings.1.context': 'She would say this when light bulbs unexpectedly blew. When my father did not pay the child support. When the cat managed to open the fridge and steal the last piece of salami. When the renter ran away with all the furniture leaving unpaid bills and months of rent' ,
     'sayings.2.text': 'Yank it!',
-    'sayings.2.context': 'She would say this when Windows was taking to long to start',
+    'sayings.2.context': 'She would say this when Windows was taking to long to start. When a program did not load, when the file explorer was taking too long to load the file list.',
+	'sayings.3.text': '... And I will pull the plug...',
+    'sayings.2.context': 'She would say this that whenever someone was acting up in the Facebook chat and she used to unplug the internet router.',
     
     // Footer
     'footer.memory': 'Forever in our hearts',
@@ -127,10 +129,12 @@ const translations: Record<Language, Record<string, string>> = {
     'sayings.title': 'Le Sue Parole & Storie',
     'sayings.subtitle': 'La saggezza e l\'umorismo che ha condiviso con noi',
     'sayings.listen': 'Ascolta',
-    'sayings.1.text': 'Che Dio li accecasse',
+    'sayings.1.text': 'Che Dio li accecasse!',
     'sayings.1.context': "Lo diceva quando le lampadine si fulminavano inaspettatamente. Quando mio padre non pagava l'assegno di mantenimento. Quando il gatto riusciva ad aprire il frigo rubando l'ultimo pezzo di salame. Quando l'inquilino se l'è data a gambe con tutto l'arredamento, lasciando bollette arretrate e mesi di affitto da pagare.",
     'sayings.2.text': 'Daje, sgancia!',
-    'sayings.2.context': "Lo diceva quando Windows ci metteva troppo ad avviarsi.",
+    'sayings.2.context': "Lo diceva quando Windows ci metteva troppo ad avviarsi. Quando i programmi non partivano. Quando il file explorer  non caricava la lista dei file.",
+    'sayings.3.text': '...E gli stacco la spina!',
+    'sayings.3.context': "Lo diceva quando qualcuno rompeva le scatole su Facebook e s staccava il router e quindi il Wi-Fi..",
     
     // Footer
     'footer.memory': 'Per sempre nei nostri cuori',
@@ -190,10 +194,12 @@ const translations: Record<Language, Record<string, string>> = {
     'sayings.title': 'Нейните думи и истории',
     'sayings.subtitle': 'Мъдростта и хумора, които споделяше с нас',
     'sayings.listen': 'Слушай',
-    'sayings.1.text': 'Да му се не види',
+    'sayings.1.text': 'Да му се не види!',
     'sayings.1.context': 'Тя го казваше когато лампите неочаквано гърмяха. Когато баща ми не плащаше издръжката за детето. Когато котката успяваше да отвори хладилника и да открадне последното парче салам. Когато неамателя избяга с обзавеждането и остави неплатени наеми и сметки.',
     'sayings.2.text': 'Аре бе!',
-    'sayings.2.context': 'Обикновено го казваше когато...',
+    'sayings.2.context': 'Обикновено го казваше когато Windows стартираше бавно. Когато програмите не стартираха, когато списъка с файли не се зареждаше.',
+    'sayings.3.text': 'И като му дръпна шалтгера ...',
+    'sayings.3.context': 'Казваше го когато някой нахалстваше в чата на фейсбук и изключваше рутера за интернет.',
     
     // Footer
     'footer.memory': 'Завинаги в сърцата ни',
