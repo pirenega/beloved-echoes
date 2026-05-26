@@ -40,14 +40,14 @@ const translations: Record<Language, Record<string, string>> = {
     'bio.photoPlaceholder': 'Photo placeholder',
     'bio.intro': 'This section will contain the biography. You can add your mother\'s life story, her achievements, the places she lived, and the impact she had on everyone around her.',
     'bio.earlyLife.heading': 'Early Life',
-    'bio.earlyLife.body': 'Elena was born on 3 October 1952 in the village of Lokorsko, near Sofia. She studied at the Radio and TV School in Sofia and later earned her PhD in Theoretical Physics from Sofia University St. Kliment Ohridski. Her doctoral thesis focused on quantum field theory. She later became a full professor of Physics at the Department of Language Teaching at Sofia University St. Kliment Ohridski.',
+    'bio.earlyLife.body': 'Elena was born on 3 October 1952 in the village of Lokorsko, near Sofia. She studied at the Radio and TV School in Sofia and later earned her PhD in Theoretical Physics [...]',
     'bio.education.heading': 'Education & Career',
-    'bio.education.body1': 'In 1984, she married a mathematician, Vladimir, and that same year, their daughter, Irena Vladimirova Gueorguieva, was born. Shortly after, in 1986, the Chernobyl disaster occurred, leading to Elena developing thyroid carcinoma. She underwent a thyroidectomy but refused chemotherapy, believing that while it could extend life, its side effects were too severe to allow for a normal existence—especially as a mother of a young child. In 1993, she and Vladimir divorced. Later, Vladimir also developed cancer, which he survived after undergoing aggressive chemotherapy in Germany. His approach was in stark contrast to Elena\'s, shaped in part by her own convictions and the limited medical options available in Bulgaria at the time.',
-    'bio.education.body2': 'Following the emotionally exhausting divorce, Elena developed a deep interest in occult sciences, seeking answers beyond traditional physics to explain inexplicable coincidences and human behavior. She had always believed in a greater good and absolute love but encountered many people with opposing worldviews. Seeing the limitations of oncology and other medical fields in Bulgaria, she devoted the rest of her life to exploring both physical and spiritual healing. She successfully healed herself and later helped others navigate struggles similar to her own. She intuitively practiced the Silva Method, one of the first techniques she used to restore balance in her life. Her philosophical influences included Helena Petrovna Blavatsky, Rudolf Steiner, Osho, and Petar Danov. She later became a certified practitioner and instructor of the DEIR System developed by Dmitry Wereszczagin.',
+    'bio.education.body1': 'In 1984, she married a mathematician, Vladimir, and that same year, their daughter, Irena Vladimirova Gueorguieva, was born. Shortly after, in 1986, the Chernobyl disas[...]',
+    'bio.education.body2': 'Following the emotionally exhausting divorce, Elena developed a deep interest in occult sciences, seeking answers beyond traditional physics to explain inexplicable coi[...]',
     'bio.books.heading': 'Books',
-    'bio.books.body': 'After 2000, she co-authored works with John Whale. With her background in Quantum Field Theory, she explored ways to apply the concept of the human aura as a structural energy-information pattern. She co-wrote an article on the human assemblage point in collaboration with John Whale, titled Vibration-Oscillation Diagnosing and Healing Therapy.',
+    'bio.books.body': 'After 2000, she co-authored works with John Whale. With her background in Quantum Field Theory, she explored ways to apply the concept of the human aura as a structural ener[...]',
     'bio.legacy.heading': 'Legacy',
-    'bio.legacy.body': 'Elena\'s life ended unexpectedly in 2024 under unclear circumstances. Officially, it was stated that she suffered a stroke. The night before, she had spoken for the last time, and by the following day, she was unresponsive. I, Irena, her daughter was in Italy working, and called two of her friends. However, they delayed calling an ambulance for too long. When they finally took her to the hospital, it was declared that she had suffered a stroke.',
+    'bio.legacy.body': 'Elena\'s life ended unexpectedly in 2024 under unclear circumstances. Officially, it was stated that she suffered a stroke. The night before, she had spoken for the last ti[...]',
     
     
     // Research
@@ -64,6 +64,10 @@ const translations: Record<Language, Record<string, string>> = {
     'sayings.title': 'Her Words & Stories',
     'sayings.subtitle': 'The wisdom and humor she shared with us',
     'sayings.listen': 'Listen',
+    'sayings.1.text': 'God blind them all!',
+    'sayings.1.context': 'She would say this when...',
+    'sayings.2.text': 'Yank it!',
+    'sayings.2.context': 'Usually said during...',
     
     // Footer
     'footer.memory': 'Forever in our hearts',
@@ -97,16 +101,16 @@ const translations: Record<Language, Record<string, string>> = {
     'bio.title': 'Biografia',
     'bio.subtitle': 'Una vita di scoperta e saggezza',
     'bio.photoPlaceholder': 'Spazio per la foto',
-    'bio.intro': 'Questa sezione conterrà la biografia. Puoi aggiungere la storia della vita di tua madre, i suoi successi, i luoghi in cui ha vissuto e l\'impatto che ha avuto su tutti coloro che l\'hanno conosciuta.',
+    'bio.intro': 'Questa sezione conterrà la biografia. Puoi aggiungere la storia della vita di tua madre, i suoi successi, i luoghi in cui ha vissuto e l\'impatto che ha avuto su tutti coloro c[...]',
     'bio.earlyLife.heading': 'Prima Infanzia',
-    'bio.earlyLife.body': 'Elena nacque il 3 ottobre 1952 nel villaggio di Lokorsko, vicino a Sofia. Studiò alla Scuola di Radio e Televisione di Sofia e successivamente conseguì il dottorato in Fisica Teorica presso l\'Università di Sofia "San Clemente di Ocrida". La sua tesi di dottorato si concentrava sulla teoria dei campi quantistici. In seguito divenne professore ordinario di Fisica presso il Dipartimento di Insegnamento delle Lingue dell\'Università di Sofia "San Clemente di Ocrida".',
+    'bio.earlyLife.body': 'Elena nacque il 3 ottobre 1952 nel villaggio di Lokorsko, vicino a Sofia. Studiò alla Scuola di Radio e Televisione di Sofia e successivamente conseguì il dottorato i[...]',
     'bio.education.heading': 'Istruzione e Carriera',
-    'bio.education.body1': 'Nel 1984 sposò un matematico, Vladimir, e nello stesso anno nacque la loro figlia, Irena Vladimirova Gueorguieva. Poco dopo, nel 1986, avvenne il disastro di Chernobyl, che portò Elena a sviluppare un carcinoma alla tiroide. Si sottopose a una tiroidectomia ma rifiutò la chemioterapia, convinta che, pur potendo prolungare la vita, i suoi effetti collaterali fossero troppo gravi per permetterle un\'esistenza normale, soprattutto come madre di una bambina piccola. Nel 1993, lei e Vladimir divorziarono. Più tardi, anche Vladimir sviluppò un cancro, al quale sopravvisse dopo aver affrontato una chemioterapia aggressiva in Germania. Il suo approccio era in netto contrasto con quello di Elena, plasmato in parte dalle sue convinzioni e dalle limitate possibilità mediche disponibili in Bulgaria all\'epoca.',
-    'bio.education.body2': 'Dopo il divorzio emotivamente estenuante, Elena sviluppò un profondo interesse per le scienze occulte, cercando risposte oltre la fisica tradizionale per spiegare coincidenze inspiegabili e il comportamento umano. Aveva sempre creduto in un bene superiore e nell\'amore assoluto, ma incontrò molte persone con visioni opposte. Vedendo i limiti dell\'oncologia e di altri campi medici in Bulgaria, dedicò il resto della sua vita a esplorare la guarigione fisica e spirituale. Riuscì a guarire se stessa e in seguito aiutò altri ad affrontare difficoltà simili alle sue. Praticò intuitivamente il Metodo Silva, una delle prime tecniche che utilizzò per ristabilire l\'equilibrio nella sua vita. Tra le sue influenze filosofiche figurano Helena Petrovna Blavatsky, Rudolf Steiner, Osho e Petar Danov. In seguito divenne praticante e istruttrice certificata del Sistema DEIR sviluppato da Dmitry Wereszczagin.',
+    'bio.education.body1': 'Nel 1984 sposò un matematico, Vladimir, e nello stesso anno nacque la loro figlia, Irena Vladimirova Gueorguieva. Poco dopo, nel 1986, avvenne il disastro di Chernoby[...]',
+    'bio.education.body2': 'Dopo il divorzio emotivamente estenuante, Elena sviluppò un profondo interesse per le scienze occulte, cercando risposte oltre la fisica tradizionale per spiegare coi[...]',
     'bio.books.heading': 'Libri',
-    'bio.books.body': 'Dopo il 2000, ha collaborato come coautrice con John Whale. Forte della sua formazione in Teoria dei Campi Quantistici, ha esplorato modi per applicare il concetto dell\'aura umana come schema strutturale di energia e informazione. Ha scritto in collaborazione con John Whale un articolo sul punto di assemblaggio umano, intitolato Vibration-Oscillation Diagnosing and Healing Therapy.',
+    'bio.books.body': 'Dopo il 2000, ha collaborato come coautrice con John Whale. Forte della sua formazione in Teoria dei Campi Quantistici, ha esplorato modi per applicare il concetto dell\'au[...]',
     'bio.legacy.heading': 'Eredità',
-    'bio.legacy.body': 'La vita di Elena si è conclusa inaspettatamente nel 2024 in circostanze poco chiare. Ufficialmente fu dichiarato che aveva avuto un ictus. La sera prima aveva parlato per l\'ultima volta, e il giorno seguente non rispondeva più. Io, Irena, sua figlia, ero in Italia per lavoro e chiamai due delle sue amiche. Loro però tardarono troppo a chiamare un\'ambulanza. Quando finalmente la portarono in ospedale, fu dichiarato che aveva subito un ictus.',
+    'bio.legacy.body': 'La vita di Elena si è conclusa inaspettatamente nel 2024 in circostanze poco chiare. Ufficialmente fu dichiarato che aveva avuto un ictus. La sera prima aveva parlato per[...]',
     
     
     // Research
@@ -123,6 +127,10 @@ const translations: Record<Language, Record<string, string>> = {
     'sayings.title': 'Le Sue Parole & Storie',
     'sayings.subtitle': 'La saggezza e l\'umorismo che ha condiviso con noi',
     'sayings.listen': 'Ascolta',
+    'sayings.1.text': 'Che Dio li accecasse',
+    'sayings.1.context': 'Lo diceva quando...',
+    'sayings.2.text': 'Daje, sgancia!',
+    'sayings.2.context': 'Di solito lo diceva quando...',
     
     // Footer
     'footer.memory': 'Per sempre nei nostri cuori',
@@ -156,16 +164,16 @@ const translations: Record<Language, Record<string, string>> = {
     'bio.title': 'Биография',
     'bio.subtitle': 'Живот на откритие и мъдрост',
     'bio.photoPlaceholder': 'Място за снимка',
-    'bio.intro': 'Този раздел ще съдържа биографията. Можете да добавите житейската история на майка си, нейните постижения, местата, където е живяла, и влиянието, което е оказала върху всички около нея.',
+    'bio.intro': 'Този раздел ще съдържа биографията. Можете да добавите житейската история на майка си, нейните п[...]',
     'bio.earlyLife.heading': 'Ранни години',
-    'bio.earlyLife.body': 'Елена е родена на 3 октомври 1952 г. в село Локорско, близо до София. Учи в Радио- и телевизионното училище в София, а по-късно защитава докторска степен по Теоретична физика в Софийския университет „Св. Климент Охридски“. Дисертацията ѝ е посветена на квантовата теория на полето. По-късно става редовен професор по физика в Департамента за езиково обучение към Софийския университет „Св. Климент Охридски“.',
+    'bio.earlyLife.body': 'Елена е родена на 3 октомври 1952 г. в село Локорско, близо до София. Учи в Радио- и телевизионно[...]',
     'bio.education.heading': 'Образование и кариера',
-    'bio.education.body1': 'През 1984 г. се омъжва за математика Владимир и същата година се ражда дъщеря им Ирена Владимирова Георгиева. Малко след това, през 1986 г., се случва Чернобилската катастрофа, в резултат на която Елена развива карцином на щитовидната жлеза. Прави тиреоидектомия, но отказва химиотерапия, убедена, че макар тя да може да удължи живота, страничните ѝ ефекти са твърде тежки, за да позволят нормално съществуване — особено като майка на малко дете. През 1993 г. тя и Владимир се развеждат. По-късно и Владимир развива рак, който преодолява след агресивна химиотерапия в Германия. Неговият подход е в рязък контраст с този на Елена, оформен отчасти от собствените ѝ убеждения и от ограничените медицински възможности в България по онова време.',
-    'bio.education.body2': 'След емоционално изтощителния развод Елена развива дълбок интерес към окултните науки, търсейки отговори отвъд традиционната физика, които да обяснят необясними съвпадения и човешкото поведение. Винаги е вярвала в по-висше добро и в абсолютната любов, но среща много хора с противоположен мироглед. Виждайки ограниченията на онкологията и други медицински области в България, тя посвещава остатъка от живота си на изследване както на физическото, така и на духовното изцеление. Успешно се излекува сама и по-късно помага на други да преодоляват трудности, подобни на нейните. Интуитивно практикува метода Силва — една от първите техники, които използва, за да възстанови равновесието в живота си. Сред философските ѝ влияния са Елена Петровна Блаватска, Рудолф Щайнер, Ошо и Петър Дънов. По-късно става сертифициран практик и инструктор на системата ДЕИР, разработена от Дмитрий Верешчагин.',
+    'bio.education.body1': 'През 1984 г. се омъжва за математика Владимир и същата година се ражда дъщеря им Ирена Владими[...]',
+    'bio.education.body2': 'След емоционално изтощителния развод Елена развива дълбок интерес към окултните науки, тъ[...]',
     'bio.books.heading': 'Книги',
-    'bio.books.body': 'След 2000 г. е съавтор на трудове с Джон Уейл. С опита си в квантовата теория на полето тя изследва начини за прилагане на концепцията за човешката аура като структурен енергийно-информационен модел. В съавторство с Джон Уейл пише статия за човешката точка на сглобяване, озаглавена Vibration-Oscillation Diagnosing and Healing Therapy.',
+    'bio.books.body': 'След 2000 г. е съавтор на трудове с Джон Уейл. С опита си в квантовата теория на полето тя изследв[...]',
     'bio.legacy.heading': 'Наследство',
-    'bio.legacy.body': 'Животът на Елена приключи неочаквано през 2024 г. при неясни обстоятелства. Официално бе обявено, че е получила инсулт. Вечерта преди това бе говорила за последен път, а на следващия ден вече не реагираше. Аз, Ирена, нейната дъщеря, бях в Италия по работа и се обадих на две нейни приятелки. Те обаче се забавиха твърде много с повикването на линейка. Когато най-сетне я откараха в болницата, бе обявено, че е претърпяла инсулт.',
+    'bio.legacy.body': 'Животът на Елена приключи неочаквано през 2024 г. при неясни обстоятелства. Официално бе обявен[...]',
     
     
     // Research
@@ -182,6 +190,10 @@ const translations: Record<Language, Record<string, string>> = {
     'sayings.title': 'Нейните думи и истории',
     'sayings.subtitle': 'Мъдростта и хумора, които споделяше с нас',
     'sayings.listen': 'Слушай',
+    'sayings.1.text': 'Да му се не види',
+    'sayings.1.context': 'Тя го казваше когато...',
+    'sayings.2.text': 'Аре бе!',
+    'sayings.2.context': 'Обикновено го казваше когато...',
     
     // Footer
     'footer.memory': 'Завинаги в сърцата ни',
