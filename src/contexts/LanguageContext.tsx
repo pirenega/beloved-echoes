@@ -65,7 +65,7 @@ const translations: Record<Language, Record<string, string>> = {
     'sayings.subtitle': 'The wisdom and humor she shared with us',
     'sayings.listen': 'Listen',
     'sayings.1.text': 'God blind them all!',
-    'sayings.1.context': 'She would say this when light bulbs unexpectedly blew. When my father did not pay the child support. When the cat managed to open the fridge and steal the last piece of salami. When the renter ran away with all the furniture leaving unpaid bills and months of rent.',
+    'sayings.1.context': 'She would say this when light bulbs unexpectedly blew. When my father did not pay the child support. When the cat managed to open the fridge and steal the last piece of salami. When the renter ran away with all the furniture leaving unpaid bills and months of rent' ,
     'sayings.2.text': 'Yank it!',
     'sayings.2.context': 'She would say this when Windows was taking to long to start',
     
@@ -130,7 +130,7 @@ const translations: Record<Language, Record<string, string>> = {
     'sayings.1.text': 'Che Dio li accecasse',
     'sayings.1.context': 'Lo diceva quando le lampadine si fulminavano inaspettatamente. Quando mio padre non pagava l'assegno di mantenimento. Quando il gatto riusciva ad aprire il frigo rubando l'ultimo pezzo di salame. Quando l'inquilino se l'è data a gambe con tutto l'arredamento, lasciando bollette arretrate e mesi di affitto da pagare.',
     'sayings.2.text': 'Daje, sgancia!',
-    'sayings.2.context': 'Lo diceva quando Windows ci metteva troppo ad avviarsi.',
+    'sayings.2.context': ''Lo diceva quando Windows ci metteva troppo ad avviarsi. ',
     
     // Footer
     'footer.memory': 'Per sempre nei nostri cuori',
@@ -193,7 +193,7 @@ const translations: Record<Language, Record<string, string>> = {
     'sayings.1.text': 'Да му се не види',
     'sayings.1.context': 'Тя го казваше когато лампите неочаквано гърмяха. Когато баща ми не плащаше издръжката за детето. Когато котката успяваше да отвори хладилника и да открадне последното парче салам. Когато неамателя избяга с обзавеждането и остави неплатени наеми и сметки.',
     'sayings.2.text': 'Аре бе!',
-    'sayings.2.context': 'Обикновено го казваше когато Windows стартираше бавно.',
+    'sayings.2.context': 'Обикновено го казваше когато...',
     
     // Footer
     'footer.memory': 'Завинаги в сърцата ни',
