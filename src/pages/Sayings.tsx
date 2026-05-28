@@ -34,17 +34,12 @@ export default function Sayings() {
     },
   ];
 
-  // Placeholder stories
+  // Stories with translation keys
   const stories = [
     {
       id: 1,
-      title: 'Story Title 1',
-      content: 'A story she used to tell... Add the full story here.',
-    },
-    {
-      id: 2,
-      title: 'Story Title 2',
-      content: 'Another memorable story... Add the details here.',
+      titleKey: 'story.1.title',
+      contentKey: 'story.1.content',
     },
   ];
 
@@ -99,8 +94,12 @@ export default function Sayings() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="memorial-card"
               >
-                <h3 className="font-serif text-xl text-primary mb-4">{story.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{story.content}</p>
+                <h3 className="font-serif text-xl text-primary mb-4">
+                  {story.titleKey ? t(story.titleKey) : story.title}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  {story.contentKey ? t(story.contentKey) : story.content}
+                </p>
               </motion.div>
             ))}
           </div>
