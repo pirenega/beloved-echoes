@@ -45,6 +45,11 @@ export default function Sayings() {
       id: 2,
       titleKey: 'story.2.title',
       contentKey: 'story.2.content',
+    },	
+	{
+      id: 3,
+      titleKey: 'story.3.title',
+      contentKey: 'story.3.content',
     },
   ];
 
