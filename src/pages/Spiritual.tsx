@@ -11,7 +11,7 @@ const teachings = [
   { key: 'spiritual.silva', path: '/spiritual/silva-method', emoji: '🧠' },
   { key: 'spiritual.deir', path: '/spiritual/deir', emoji: '⚡' },
   { key: 'spiritual.donJuan', path: '/spiritual/don-juan', emoji: '🦅' },
-  { key: 'spiritual.sclarWaves', path: '/spiritual/scalar-waves', emoji: '🌊' },
+  { key: 'spiritual.scalarWaves', path: '/spiritual/scalar-waves', emoji: '🌊' },
   { key: 'spiritual.assemblage', path: '/spiritual/assemblage-point', emoji: '🎯' },
   { key: 'spiritual.radiesthesy', path: '/spiritual/radiesthesy', emoji: '🔮' },
   { key: 'spiritual.homeopathy', path: '/spiritual/homeopathy', emoji: '🌿' },
