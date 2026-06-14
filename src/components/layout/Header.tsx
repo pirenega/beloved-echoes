@@ -16,6 +16,7 @@ const spiritualSubmenu = [
   { key: 'spiritual.silva', path: '/spiritual/silva-method' },
   { key: 'spiritual.deir', path: '/spiritual/deir' },
   { key: 'spiritual.donJuan', path: '/spiritual/don-juan' },
+  { key: 'spiritual.sclarWaves', path: '/spiritual/scalar-waves' },
   { key: 'spiritual.assemblage', path: '/spiritual/assemblage-point' },
   { key: 'spiritual.radiesthesy', path: '/spiritual/radiesthesy' },
   { key: 'spiritual.homeopathy', path: '/spiritual/homeopathy' },
